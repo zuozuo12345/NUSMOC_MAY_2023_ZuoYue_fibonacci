@@ -14,11 +14,10 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ curl -L https://raw.githubusercontent.com/docker/compose/1.25.5/contrib/completion/bash/docker-compose > /etc/bash_completion.d/docker-compose
 
 $ docker-compose --version
-docker-compose version 1.25.5, build 4667896b
 
-### start docker-compose and establish environment and run the
-application.
-after finishing writing docker-compose.yml, put it to /usr/data 
+
+### start docker-compose and establish environment and run the application.
+after finishing writing docker-compose.yml, put it to /usr/data , and put other files in docker_resources into  /usr/data
 
 $ cd /usr/data
 
