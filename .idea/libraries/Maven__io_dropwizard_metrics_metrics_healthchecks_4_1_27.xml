@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.dropwizard.metrics:metrics-healthchecks:4.1.27">
+    <CLASSES>
+      <root url="jar://D:/Maven/maven3.6.3_respository/io/dropwizard/metrics/metrics-healthchecks/4.1.27/metrics-healthchecks-4.1.27.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Maven/maven3.6.3_respository/io/dropwizard/metrics/metrics-healthchecks/4.1.27/metrics-healthchecks-4.1.27-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Maven/maven3.6.3_respository/io/dropwizard/metrics/metrics-healthchecks/4.1.27/metrics-healthchecks-4.1.27-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
