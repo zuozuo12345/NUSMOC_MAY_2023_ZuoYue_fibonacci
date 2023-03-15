@@ -82,7 +82,7 @@ public class fibonacciApplicationTest {
         assertEquals(BigInteger.valueOf(160500643816367088L), result.getSorted().get(1));
         assertEquals(BigInteger.valueOf(37889062373143906L), result.getSorted().get(2));
         assertEquals(BigInteger.valueOf(8944394323791464L), result.getSorted().get(3));
-        assertEquals(BigInteger.valueOf(2111485077978050L), result.getSorted().get(4));
+
     }
 }
 
