@@ -1,13 +1,3 @@
-#server:
-#  applicationConnectors:
-#    - type: http
-#      port: 8084
-#configFilePath: ./config.yml
-#logging:
-#  level: INFO
-#  loggers:
-#    com.zuo: DEBUG
-
 server:
   applicationConnectors:
     - type: http
@@ -15,7 +5,6 @@ server:
   adminConnectors:
     - type: http
       port: 8081
-configFilePath: ./config.yml
 logging:
   level: INFO
   loggers:

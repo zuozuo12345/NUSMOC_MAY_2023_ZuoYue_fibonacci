@@ -4,6 +4,7 @@ import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.validation.constraints.NotEmpty;
 
+
 public class fibonacciConfiguration extends Configuration {
 
     @JsonProperty("configFilePath")
