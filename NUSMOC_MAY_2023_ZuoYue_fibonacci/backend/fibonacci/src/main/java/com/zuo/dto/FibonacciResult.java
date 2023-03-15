@@ -2,6 +2,7 @@ package com.zuo.dto;
 
 import java.math.BigInteger;
 import java.util.List;
+import java.util.Map;
 
 public class FibonacciResult {
 
@@ -29,4 +30,5 @@ public class FibonacciResult {
     public void setSorted(List<BigInteger> sorted) {
         this.sorted = sorted;
     }
+
 }

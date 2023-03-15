@@ -1,8 +1,10 @@
 package com.zuo.resources;
 
+
 import com.zuo.dto.FibonacciResult;
 import com.zuo.service.IFibonacciService;
 
+import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -15,6 +17,7 @@ public class FibonacciResource {
 
     private final IFibonacciService fibonacciService;
 
+    @Inject
     public FibonacciResource(IFibonacciService fibonacciService) {
         this.fibonacciService = fibonacciService;
     }
